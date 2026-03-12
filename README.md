@@ -1,62 +1,68 @@
-## 🚀 JobPortal: Full-Stack Career Platform
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=312e81&height=200&section=header&text=JobPortal%20Platform&fontSize=60&fontAlignY=50&fontColor=ffffff" />
+</div>
 
-A comprehensive, role-based job portal application built using the Java MVC (Model-View-Controller) architecture. This platform bridges the gap between hiring managers and job seekers with a seamless, dynamic interface.
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=Full-Stack+Career+Platform;Strict+MVC+Architecture;B2B+Employer+Portals;B2C+Job+Seeker+Workflows" alt="Typing SVG" />
+</div>
 
-## ✨ Key Features
+<br>
 
-For Employers (Hiring Managers)
-Job Management (CRUD): Post new job openings, update existing listings, or delete outdated ones.
+> **A comprehensive, role-based career platform bridging the gap between hiring managers and job seekers. Engineered strictly on the Java MVC (Model-View-Controller) architecture to deliver a seamless, dynamic, and scalable user experience.**
 
-Applicant Tracking: A dedicated dashboard to view everyone who has applied to their specific jobs, including applicant contact details.
+<br>
 
-Status Control: Toggle job listings between 'Active' and 'Inactive'.
+## 🛠️ Technology Stack
 
-For Job Seekers (Candidates)
-Advanced Job Search: Filter jobs by specific locations or categories (IT, Finance, Marketing, etc.).
+<div align="center">
+  <img src="https://img.shields.io/badge/Java_Servlets-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JSP_&_JSTL-%23007396.svg?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL_Database-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache_Tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black" />
+  <img src="https://img.shields.io/badge/Bootstrap_5-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+</div>
 
-One-Click Apply: Quickly apply for jobs and prevent duplicate applications with built-in logic.
-
-Application History: Track all previously applied jobs in a personal dashboard.
-
-Profile Management: View and update personal information and account credentials.
+---
 
 ## 🏗️ System Architecture (MVC Pattern)
 
-The project follows the **Model-View-Controller (MVC)** design pattern to ensure a clean separation of concerns, making the code maintainable and scalable.
+This platform was built adhering to the **Model-View-Controller** design pattern to ensure a clean separation of concerns, resulting in highly maintainable and easily scalable code.
 
 ```mermaid
 graph TD
-    User((User Browser)) -->|Request| JSP[View: JSP Pages]
+    User((User Browser)) -->|HTTP Request| JSP[View: JSP Pages]
     JSP -->|Form Data| Servlet[Controller: Java Servlets]
-    Servlet -->|Object| DAO[Data Access Object: DAO]
+    Servlet -->|Object Mapping| DAO[Data Access Object]
     DAO -->|SQL Query| MySQL[(Database: MySQL)]
     MySQL -->|ResultSet| DAO
     DAO -->|Entity Object| Servlet
-    Servlet -->|Attribute| JSP
-    JSP -->|HTML| User
+    Servlet -->|Set Attribute| JSP
+    JSP -->|Rendered HTML| User
 ```
-## 🛠️ Tech Stack
+Component,Technology,Responsibility
+View,"JSP, Bootstrap 5",Handles the presentation layer. Responsible for responsive UI and rendering dynamic data passed from the Servlets.
+Controller,Java Servlets,"The ""Brain"" of the application. Intercepts HTTP requests, manages session states, validates data, and orchestrates backend logic."
+Model,Java POJOs,"Entity classes (e.g., User.java, Job.java) that serve as exact object representations of our database tables."
+DAO Layer,JDBC,"The ""Bridge"" to the database. Isolates all SQL logic (Joins, CRUD operations, Filters) to keep the Controllers clean and modular."
+Database,MySQL,"Relational storage system designed with optimized indexing to support fast, complex job search queries."
+    
+    style User fill:#4f46e5,stroke:#312e81,stroke-width:2px,color:#fff
+    style MySQL fill:#0ea5e9,stroke:#0284c7,stroke-width:2px,color:#fff
+    style Servlet fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
 
-Backend: Java (Servlets & JSP)
+##🚀 Core User Workflows
+###🏢 B2B: For Employers (Hiring Managers)
+Job Management (CRUD): Post new job openings, update active listings, or securely delete outdated requirements.
 
-Database: MySQL
+Applicant Tracking: A dedicated administrative dashboard to view all candidates who have applied to specific roles, complete with contact details.
 
-Build Tool: Maven
+Status Control: Granular control to toggle job visibility between 'Active' and 'Inactive' without deleting historical data.
 
-Frontend: Bootstrap 5, FontAwesome, HTML5, CSS3
+###👤 B2C: For Job Seekers (Candidates)
+Advanced Job Search: Filter the database by specific geographic locations or industry categories (IT, Finance, Marketing, etc.).
 
-Server: Apache Tomcat 10+
+One-Click Apply: Streamlined application process with built-in backend logic to prevent duplicate submissions.
 
-Architecture: MVC (Model-View-Controller)
+Application History: Personalized dashboard to track the status of all previously applied jobs.
 
-## 🧩 Components Explained:
-
-View (JSP): Handles the presentation layer. Uses Bootstrap 5 for responsiveness and dynamic data rendering.
-
-Controller (Servlets): The "Brain" of the app. It intercepts user requests, validates session data, and communicates with the Backend logic.
-
-Model (Entities): POJOs like User.java and Job.java that represent our database tables.
-
-Data Access Object (DAO): The "Bridge" to the database. Contains all SQL logic (Joins, CRUD, Filters) to keep the Servlets clean.
-
-Database (MySQL): A relational storage system with optimized indexing for fast job searches.
+Profile Management: Secure portal to update personal information and manage account credentials.
