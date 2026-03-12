@@ -34,7 +34,7 @@ graph TD
     DAO -->|Entity Object| Servlet
     Servlet -->|Attribute| JSP
     JSP -->|HTML| User
-
+```
 ## 🛠️ Tech Stack
 
 Backend: Java (Servlets & JSP)
