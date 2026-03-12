@@ -39,4 +39,12 @@ user: Stores account details and roles (Employer/Seeker).
 jobs: Stores job descriptions linked to the Employer's user_id.
 
 applications: A bridge table linking user_id and job_id to track candidate interests.
+## 📸 Project Gallery
 
+| Landing Page | Job Seeker Board |
+| :---: | :---: |
+| ![Landing Page](screenshots/index_page.png) | ![Job Board](screenshots/explore_page.png) |
+
+| Employer Dashboard | Job Details View |
+| :---: | :---: |
+| ![Employer Dashboard](screenshots/hom_page_employer.png) | ![Job Details](screenshots/jobDetails_page.png) |
