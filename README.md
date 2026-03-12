@@ -51,9 +51,9 @@ graph TD
     style MySQL fill:#0ea5e9,stroke:#0284c7,stroke-width:2px,color:#fff
     style Servlet fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
 ---
-##🚀 Core User Workflows
+## 🚀 Core User Workflows
 
-###🏢 B2B: For Employers (Hiring Managers)
+### 🏢 B2B: For Employers (Hiring Managers)
 
 Job Management (CRUD): Post new job openings, update active listings, or securely delete outdated requirements.
 
@@ -61,7 +61,7 @@ Applicant Tracking: A dedicated administrative dashboard to view all candidates 
 
 Status Control: Granular control to toggle job visibility between 'Active' and 'Inactive' without deleting historical data.
 
-##👤 B2C: For Job Seekers (Candidates)
+### 👤 B2C: For Job Seekers (Candidates)
 
 Advanced Job Search: Filter the database by specific geographic locations or industry categories (IT, Finance, Marketing, etc.).
 
