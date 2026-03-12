@@ -50,7 +50,7 @@ graph TD
     style User fill:#4f46e5,stroke:#312e81,stroke-width:2px,color:#fff
     style MySQL fill:#0ea5e9,stroke:#0284c7,stroke-width:2px,color:#fff
     style Servlet fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
-
+---
 ##🚀 Core User Workflows
 
 ###🏢 B2B: For Employers (Hiring Managers)
