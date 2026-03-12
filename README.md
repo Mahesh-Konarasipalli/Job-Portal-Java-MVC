@@ -39,12 +39,13 @@ graph TD
     Servlet -->|Set Attribute| JSP
     JSP -->|Rendered HTML| User
 ```
-Component,Technology,Responsibility
-View,"JSP, Bootstrap 5",Handles the presentation layer. Responsible for responsive UI and rendering dynamic data passed from the Servlets.
-Controller,Java Servlets,"The ""Brain"" of the application. Intercepts HTTP requests, manages session states, validates data, and orchestrates backend logic."
-Model,Java POJOs,"Entity classes (e.g., User.java, Job.java) that serve as exact object representations of our database tables."
-DAO Layer,JDBC,"The ""Bridge"" to the database. Isolates all SQL logic (Joins, CRUD operations, Filters) to keep the Controllers clean and modular."
-Database,MySQL,"Relational storage system designed with optimized indexing to support fast, complex job search queries."
+| Component | Technology | Responsibility |
+| :--- | :--- | :--- |
+| **View** | `JSP`, `Bootstrap 5` | Handles the presentation layer. Responsible for responsive UI and rendering dynamic data passed from the Servlets. |
+| **Controller** | `Java Servlets` | The "Brain" of the application. Intercepts HTTP requests, manages session states, validates data, and orchestrates backend logic. |
+| **Model** | `Java POJOs` | Entity classes (e.g., `User.java`, `Job.java`) that serve as exact object representations of our database tables. |
+| **DAO Layer** | `JDBC` | The "Bridge" to the database. Isolates all SQL logic (Joins, CRUD operations, Filters) to keep the Controllers clean and modular. |
+| **Database** | `MySQL` | Relational storage system designed with optimized indexing to support fast, complex job search queries. |
     
     style User fill:#4f46e5,stroke:#312e81,stroke-width:2px,color:#fff
     style MySQL fill:#0ea5e9,stroke:#0284c7,stroke-width:2px,color:#fff
