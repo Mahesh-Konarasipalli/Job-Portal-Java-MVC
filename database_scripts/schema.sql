@@ -28,5 +28,3 @@ CREATE TABLE applications (
     job_id INT,
     apply_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
---
