@@ -77,4 +77,8 @@ Application History: Personalized dashboard to track the status of all previousl
 Profile Management: Secure portal to update personal information and manage account credentials.
 <div align="center">
 <img src="screenshots/index_page.png" alt="Welcome View Page" width="850" />
+<img src="screenshots/login_page.png" alt="login Page" width="850" />
+<img src="screenshots/register_page.png" alt="Registation Page" width="850" />
+<img src="screenshots/hom_page_employer.png" alt="Home Page" width="850" />
+<img src="screenshots/viewProfile_page.png" alt="Profile Page" width="850" />
 </div>
