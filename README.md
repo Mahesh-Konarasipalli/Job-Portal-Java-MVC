@@ -74,11 +74,17 @@ One-Click Apply: Streamlined application process with built-in backend logic to 
 
 Application History: Personalized dashboard to track the status of all previously applied jobs.
 
-Profile Management: Secure portal to update personal information and manage account credentials.
+## 📸 Platform Gallery
+
 <div align="center">
-<img src="screenshots/index_page.png" alt="Welcome View Page" width="850" />
-<img src="screenshots/login_page.png" alt="login Page" width="850" />
-<img src="screenshots/register_page.png" alt="Registation Page" width="850" />
-<img src="screenshots/hom_page_employer.png" alt="Home Page" width="850" />
-<img src="screenshots/viewProfile_page.png" alt="Profile Page" width="850" />
+  <table>
+    <tr>
+      <td align="center"><b>Admin Login (Dark Mode)</b><br><img src="screenshots/login_page.png" width="400" alt="Login page"></td>
+      <td align="center"><b>Admin Dashboard</b><br><img src="screenshots/home_page_employer.png" width="400" alt="Employer Dashboard"></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Student Dashboard</b><br><img src="screenshots/hom_page_seeker.png" width="400" alt="Seekers Dashboard"></td>
+      <td align="center"><b>Student Login</b><br><img src="screenshots/register_page.png" width="400" alt="Register page"></td>
+    </tr>
+  </table>
 </div>
