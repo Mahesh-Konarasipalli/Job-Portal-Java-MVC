@@ -80,10 +80,10 @@ Application History: Personalized dashboard to track the status of all previousl
   <table>
     <tr>
       <td align="center"><b>Admin Login (Dark Mode)</b><br><img src="screenshots/login_page.png" width="400" alt="Login page"></td>
-      <td align="center"><b>Admin Dashboard</b><br><img src="screenshots/home_page_employer.png" width="400" alt="Employer Dashboard"></td>
+      <td align="center"><b>Admin Dashboard</b><br><img src="screenshots/hom_page_employer.png" width="400" alt="Employer Dashboard"></td>
     </tr>
     <tr>
-      <td align="center"><b>Student Dashboard</b><br><img src="screenshots/hom_page_seeker.png" width="400" alt="Seekers Dashboard"></td>
+      <td align="center"><b>Student Dashboard</b><br><img src="screenshots/home_page_seeker.png" width="400" alt="Seekers Dashboard"></td>
       <td align="center"><b>Student Login</b><br><img src="screenshots/register_page.png" width="400" alt="Register page"></td>
     </tr>
   </table>
