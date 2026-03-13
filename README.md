@@ -75,3 +75,6 @@ One-Click Apply: Streamlined application process with built-in backend logic to 
 Application History: Personalized dashboard to track the status of all previously applied jobs.
 
 Profile Management: Secure portal to update personal information and manage account credentials.
+<div align="center">
+<img src="screenshots/index_page.png" alt="Welcome View Page" width="850" />
+</div>
